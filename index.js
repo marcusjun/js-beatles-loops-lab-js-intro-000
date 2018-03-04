@@ -9,14 +9,14 @@ function theBeatlesPlay(musicians,instruments){
 
 function johnLennonFacts(array){
   var n=0
-  var facts=[]
-  var exclam="!!!"
+  var facts=array
+  //var exclam="!!!"
   while(n>array.length){
     //array[n]//=array[n]+"!!!"
     //array[n]+="!!!"
-    //facts[n]=facts[n]+"!!!"
+    facts[n]=facts[n]+"!!!"
     //facts[n]=array[n]+"!!!"
-    facts.push(array[n]+exclam)
+    //facts.push(array[n]+exclam)
     n++
   }
   //return array
