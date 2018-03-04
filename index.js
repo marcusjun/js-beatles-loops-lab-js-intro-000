@@ -19,6 +19,6 @@ function johnLennonFacts(array){
     //facts.push(array[n]+"!!!")
     n++
   }
-  //return array
-  return facts
+  return array
+  //return facts
 }
