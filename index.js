@@ -22,7 +22,8 @@ function iLoveTheBeatles(number){
   //number=0
   do {
     //number++
-    love[number]="I love the Beatles!"
+    //love[number]="I love the Beatles!"
+    love.unshift("I love the Beatles!")
     number++
   } while (number<15)
   return love
