@@ -13,7 +13,7 @@ function johnLennonFacts(array){
   while(n>0){
     //array[n]//=array[n]+"!!!"
     //array[n]+="!!!"
-    array[n]push("!!!")
+    array[n]+"!!!"
     n--
   }
   return array
