@@ -13,4 +13,5 @@ function johnLennonFacts(array){
     array[n].push("!!!")
     --n
   }
+  return array
 }
