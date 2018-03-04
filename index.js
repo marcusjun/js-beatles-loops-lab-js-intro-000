@@ -20,8 +20,9 @@ function iLoveTheBeatles(number){
   var love=[]
   //var n=number
   do {
-    love[number]="I love the Beatles!"
     number++
+    love[number]="I love the Beatles!"
+    //number++
   } while (number<15)
   return love
 }
