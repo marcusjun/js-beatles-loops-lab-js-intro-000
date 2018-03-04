@@ -14,11 +14,11 @@ function johnLennonFacts(array){
   while(n>array.length){
     //array[n]//=array[n]+"!!!"
     //array[n]+="!!!"
-    facts[n]=facts[n]+"!!!"
+    return facts[n]=facts[n]+"!!!"
     //facts[n]=array[n]+"!!!"
     //facts.push(array[n]+exclam)
     n++
   }
   //return array
-  return facts
+  //return facts
 }
