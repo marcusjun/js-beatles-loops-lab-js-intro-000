@@ -11,8 +11,9 @@ function johnLennonFacts(array){
   var n=array.length
   //var exclam="!!!"
   while(n>0){
-    array[n]//=array[n]+"!!!"
+    //array[n]//=array[n]+"!!!"
     //array[n]+="!!!"
+    array[n]push("!!!")
     n--
   }
   return array
