@@ -19,7 +19,7 @@ function johnLennonFacts(array){
 function iLoveTheBeatles(number){
   var love=[]
   do {
-    //love.unshift("I love the Beatles!")
+    //Can use push() or unshift()
     love.push("I love the Beatles!")
     number++
   } while (number<15)
